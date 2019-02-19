@@ -5,6 +5,7 @@ import main.java.worker.WorkerCallableThread;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// Callable
 public class FutureExample {
 	public static void main(String[] args) {
 		ExecutorService executorService = Executors.newFixedThreadPool(5);

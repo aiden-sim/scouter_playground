@@ -6,6 +6,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
+// Supplier
 public class CompletableFutureExampleSupply {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		CompletableFuture<Long> future = CompletableFuture.supplyAsync(new Supplier<Long>() {

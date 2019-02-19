@@ -5,6 +5,7 @@ import main.java.worker.WorkerThread;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
+// Runnable
 public class CompletableFutureExample {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		CompletableFuture<Void> future = CompletableFuture.runAsync(new Runnable() {
