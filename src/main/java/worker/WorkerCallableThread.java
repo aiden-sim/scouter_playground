@@ -2,10 +2,12 @@ package main.java.worker;
 
 import java.util.concurrent.Callable;
 
-public class WorkerCallableThread implements Callable<Long> {
-	@Override public Long call() {
+public class WorkerCallableThread implements Callable<String> {
+	private final static String EMPTY = "";
+
+	@Override public String call() {
 		doSomething();
-		return 0L;
+		return EMPTY;
 	}
 
 	private void doSomething() {
