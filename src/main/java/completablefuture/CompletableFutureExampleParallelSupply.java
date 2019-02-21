@@ -1,10 +1,8 @@
 package main.java.completablefuture;
 
-import main.java.worker.Converter;
 import main.java.worker.WorkerThread;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -35,6 +33,7 @@ public class CompletableFutureExampleParallelSupply {
 
 		Long result = future.get();
 
+
 		// Case2
 		CompletableFutureExampleParallelSupply ex = new CompletableFutureExampleParallelSupply();
 		ex.run();
@@ -43,15 +42,14 @@ public class CompletableFutureExampleParallelSupply {
 	public void run() {
 		List<String> skuList = Arrays.asList("1111", "2222", "3333", "4444");
 		final List<CompletableFuture<String>> futures = skuList.stream()
-				.map(sku -> CompletableFuture.supplyAsync(
-						() -> {
-							return new Converter().toLong(sku);
-						}, executor))
+				.map(sku -> CompletableFuture.supplyAsync(() -> {
+					return toLong(sku);
+				}, executor))
 				.map(future -> future.thenCompose(sku -> CompletableFuture.supplyAsync(() -> {
-					return new Converter().toInteger(sku);
+					return toInteger(sku);
 				}, executor)))
 				.map(future -> future.thenCompose(sku -> CompletableFuture.supplyAsync(() -> {
-					return new Converter().toString(sku);
+					return toString(sku);
 				}, executor)))
 				.collect(Collectors.toList());
 
@@ -59,5 +57,35 @@ public class CompletableFutureExampleParallelSupply {
 				.map(CompletableFuture::join)
 				.collect(Collectors.toList());
 
+	}
+
+	private Long toLong(String sku) {
+		try {
+			System.out.println(sku);
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		return Long.valueOf(sku);
+	}
+
+	private Integer toInteger(Long sku) {
+		try {
+			System.out.println(sku);
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		return Integer.parseInt(String.valueOf(sku));
+	}
+
+	private String toString(Integer sku) {
+		try {
+			System.out.println(sku);
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		return String.valueOf(sku);
 	}
 }
