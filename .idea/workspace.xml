@@ -4,25 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/runnable/RunnableExample.java" line="4" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a6aa655-25f3-4025-89d9-c7c0f2bef37d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleAnonymousClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScouterPlayground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScouterPlayground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleLamdbdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleLamdbdaExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleParallelSupply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleParallelSupply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleSupply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleSupply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/future/FutureExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/future/FutureExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnable/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runnable/RunnableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnable/RunnableExampleAnonymousClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runnable/RunnableExampleAnonymousClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnable/RunnableExampleLambdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runnable/RunnableExampleLambdaExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadpool/ThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadpool/ThreadPoolExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/worker/WorkerCallableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/worker/WorkerCallableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/worker/WorkerRunnableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/worker/WorkerRunnableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/worker/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/worker/WorkerThread.java" afterDir="false" />
-    </list>
+    <list default="true" id="0a6aa655-25f3-4025-89d9-c7c0f2bef37d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +26,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="384" />
+          <entry key="java" value="408" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -52,7 +34,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="384" />
+          <entry key="JAVA" value="408" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -74,29 +56,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleAnonymousClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,12 +73,16 @@
       <find>completablefuture</find>
       <find>Callable</find>
       <find>출력</find>
-      <find>CompletableFutureExampleLamdbdaExpression</find>
-      <find>CompletableFutureExample</find>
       <find>main.java.c</find>
       <find>main.java.</find>
       <find>Supply</find>
       <find>supplyAsync</find>
+      <find>CompletableFutureExampleLamdbdaExpression</find>
+      <find>CompletableFutureExample</find>
+      <find>CompletableFutureExampleParallelSupply</find>
+      <find>CompletableFutureExampleSupply</find>
+      <find>runnable</find>
+      <find>supply</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,8 +145,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="19" />
+    <option name="x" value="412" />
+    <option name="y" value="43" />
     <option name="width" value="1462" />
     <option name="height" value="859" />
   </component>
@@ -294,7 +258,7 @@
     <property name="SearchEverywhereHistoryKey" value="CompletionStage&#9;PSI&#9;JAVA://java.util.concurrent.CompletionStage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550821277741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550821994805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,8 +419,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletableFutureExampleAnonymousClass" />
         <item itemvalue="Application.CompletableFutureExample" />
+        <item itemvalue="Application.CompletableFutureExampleAnonymousClass" />
         <item itemvalue="Application.ThreadPoolExample" />
         <item itemvalue="Application.RunnableExampleLambdaExpression" />
         <item itemvalue="Application.RunnableExampleAnonymousClass" />
@@ -478,13 +442,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43540000" />
+    <option name="totallyTimeSpent" value="44260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="19" width="1462" height="859" extended-state="0" />
-    <editor active="true" />
+    <frame x="412" y="43" width="1462" height="859" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2853067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,14 +456,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992284" visible="true" weight="0.22790055" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992284" weight="0.22790055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SBT Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4992284" weight="0.18686296" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4992284" visible="true" weight="0.160221" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007716" side_tool="true" visible="true" weight="0.22068965" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
@@ -643,10 +606,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runnable/RunnableExampleLambdaExpression.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerRunnableThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerCallableThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/future/FutureExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -660,40 +647,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/CompletableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="1841" column="42" selection-start-line="1841" selection-start-column="42" selection-end-line="1841" selection-end-column="42" />
-          <folding>
-            <element signature="e#68387#68388#0" expanded="true" />
-            <element signature="e#68447#68448#0" expanded="true" />
-            <element signature="e#69562#69563#0" expanded="true" />
-            <element signature="e#69619#69620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerCallableThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/future/FutureExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="153">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleAnonymousClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleLamdbdaExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runnable/RunnableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -704,64 +688,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleSupply.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/runnable/RunnableExampleLambdaExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleParallelSupply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleLamdbdaExpression.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1599" column="47" selection-start-line="1599" selection-start-column="47" selection-end-line="1599" selection-end-column="47" />
+          <folding>
+            <element signature="e#68387#68388#0" expanded="true" />
+            <element signature="e#68447#68448#0" expanded="true" />
+            <element signature="e#69562#69563#0" expanded="true" />
+            <element signature="e#69619#69620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleSupply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/worker/WorkerRunnableThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/runnable/RunnableExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/completablefuture/CompletableFutureExampleAnonymousClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
         </state>
       </provider>
     </entry>
