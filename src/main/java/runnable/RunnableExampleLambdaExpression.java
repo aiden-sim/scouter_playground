@@ -1,8 +1,11 @@
-package main.java.runnable;
+package runnable;
 
-import main.java.worker.WorkerThread;
+import worker.WorkerThread;
 
-// Lambda
+// Lambda (caller 연결 X)
+// scouter option
+// hook_service_patterns=runnable.RunnableExampleLambdaExpression.main
+// hook_lambda_instrumentation_strategy_enabled=true
 public class RunnableExampleLambdaExpression {
 	public static void main(String[] args) {
 		Runnable runnable = () -> {

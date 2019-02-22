@@ -1,4 +1,4 @@
-package main.java.worker;
+package worker;
 
 public class WorkerThread {
 	public void run() {

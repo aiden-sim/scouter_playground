@@ -1,4 +1,4 @@
-package main.java.worker;
+package worker;
 
 import java.util.concurrent.Callable;
 

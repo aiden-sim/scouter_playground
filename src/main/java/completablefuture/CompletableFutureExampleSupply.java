@@ -1,12 +1,15 @@
-package main.java.completablefuture;
+package completablefuture;
 
-import main.java.worker.WorkerThread;
+import worker.WorkerThread;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.function.Supplier;
 
-// Supplier
+// Supplier (caller 연결 X)
+// scouter option
+// hook_service_patterns=completablefuture.CompletableFutureExampleSupply.main
+// hook_async_callrunnable_scan_package_prefixes=completablefuture
 public class CompletableFutureExampleSupply {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		CompletableFuture<Long> future = CompletableFuture.supplyAsync(new Supplier<Long>() {

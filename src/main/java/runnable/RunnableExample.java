@@ -1,12 +1,14 @@
-package main.java.runnable;
+package runnable;
 
-import main.java.worker.WorkerRunnableThread;
+import worker.WorkerRunnableThread;
 
-// Runnable
+// Runnable (caller 연결 O)
+// scouter option
+// hook_service_patterns=runnable.RunnableExample.main
+// hook_async_callrunnable_scan_package_prefixes=worker
 public class RunnableExample {
 	public static void main(String[] args) {
-		Runnable runnable = new WorkerRunnableThread();
-		Thread thread = new Thread(runnable);
+		Thread thread = new Thread(new WorkerRunnableThread());
 		thread.start();
 	}
 }

@@ -1,21 +1,27 @@
-package main.java.future;
+package future;
 
-import main.java.worker.WorkerCallableThread;
-import main.java.worker.WorkerThread;
+import worker.WorkerCallableThread;
+import worker.WorkerThread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-// Callable
+// Callable (caller 연결 O)
+// scouter option
+// hook_service_patterns=future.FutureExample.main
 public class FutureExample {
 	private final static String EMPTY = "";
 
 	public static void main(String[] args) {
+		// CASE1
+		// hook_async_callrunnable_scan_package_prefixes=worker
 		ExecutorService executorService = Executors.newFixedThreadPool(5);
 		executorService.submit(new WorkerCallableThread());
 		executorService.shutdown();
 
+		// CASE2
+		// hook_async_callrunnable_scan_package_prefixes=future
 		ExecutorService executorService2 = Executors.newFixedThreadPool(5);
 		executorService2.submit(new Callable<String>() {
 			@Override public String call() throws Exception {

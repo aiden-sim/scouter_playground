@@ -1,17 +1,16 @@
-package main.java.completablefuture;
-
-import main.java.worker.WorkerThread;
+package completablefuture;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-// Supplier
+// Supplier (caller 연결 O)
+// scouter option
+// hook_service_patterns=completablefuture.CompletableFutureExampleParallelSupply.main
+// hook_async_callrunnable_scan_package_prefixes=completablefuture
 public class CompletableFutureExampleParallelSupply {
 
 	private final static Executor executor = Executors.newFixedThreadPool(4,
@@ -21,20 +20,7 @@ public class CompletableFutureExampleParallelSupply {
 				return thread;
 			});
 
-	public static void main(String[] args) throws ExecutionException, InterruptedException {
-		// CASE 1
-		CompletableFuture<Long> future = CompletableFuture.supplyAsync(new Supplier<Long>() {
-			@Override
-			public Long get() {
-				new WorkerThread().run();
-				return 0L;
-			}
-		});
-
-		Long result = future.get();
-
-
-		// Case2
+	public static void main(String[] args) {
 		CompletableFutureExampleParallelSupply ex = new CompletableFutureExampleParallelSupply();
 		ex.run();
 	}
@@ -59,7 +45,7 @@ public class CompletableFutureExampleParallelSupply {
 
 	}
 
-	private Long toLong(String sku) {
+	public Long toLong(String sku) {
 		try {
 			System.out.println(sku);
 			Thread.sleep(1000);
@@ -69,7 +55,7 @@ public class CompletableFutureExampleParallelSupply {
 		return Long.valueOf(sku);
 	}
 
-	private Integer toInteger(Long sku) {
+	public Integer toInteger(Long sku) {
 		try {
 			System.out.println(sku);
 			Thread.sleep(2000);
@@ -79,7 +65,7 @@ public class CompletableFutureExampleParallelSupply {
 		return Integer.parseInt(String.valueOf(sku));
 	}
 
-	private String toString(Integer sku) {
+	public String toString(Integer sku) {
 		try {
 			System.out.println(sku);
 			Thread.sleep(3000);

@@ -1,11 +1,14 @@
-package main.java.completablefuture;
+package completablefuture;
 
-import main.java.worker.WorkerThread;
+import worker.WorkerThread;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-// Lambda
+// Lambda (caller 연결 X)
+// scouter option
+// hook_service_patterns=completablefuture.CompletableFutureExampleLamdbdaExpression.main
+// hook_async_callrunnable_scan_package_prefixes=completablefuture
 public class CompletableFutureExampleLamdbdaExpression {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
