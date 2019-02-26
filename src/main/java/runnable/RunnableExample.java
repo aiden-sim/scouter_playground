@@ -8,7 +8,8 @@ import worker.WorkerRunnableThread;
 // hook_async_callrunnable_scan_package_prefixes=worker
 public class RunnableExample {
 	public static void main(String[] args) {
-		Thread thread = new Thread(new WorkerRunnableThread());
+		Runnable runnable = new WorkerRunnableThread();
+		Thread thread = new Thread(runnable);
 		thread.start();
 	}
 }
