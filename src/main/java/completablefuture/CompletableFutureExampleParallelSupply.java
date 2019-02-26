@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 // scouter option
 // hook_service_patterns=completablefuture.CompletableFutureExampleParallelSupply.main
 // hook_async_callrunnable_scan_package_prefixes=completablefuture
+// hook_lambda_instrumentation_strategy_enabled=true (depleacted 예정)
 public class CompletableFutureExampleParallelSupply {
 
 	private final static Executor executor = Executors.newFixedThreadPool(4,

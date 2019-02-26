@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
 // scouter option
 // hook_service_patterns=completablefuture.CompletableFutureExampleLamdbdaExpression.main
 // hook_async_callrunnable_scan_package_prefixes=completablefuture
-public class CompletableFutureExampleLamdbdaExpression {
+public class CompletableFutureExampleLambdaExpression {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
 		CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
 			new WorkerThread().run();
