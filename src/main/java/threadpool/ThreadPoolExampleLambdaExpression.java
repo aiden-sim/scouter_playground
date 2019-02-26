@@ -1,29 +1,28 @@
 package threadpool;
 
-import worker.WorkerThread;
+import java.util.concurrent.*;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
-import java.util.function.Supplier;
-
-// Runnable (caller 연결 O)
+// Runnable (caller 연결 X)
 // scouter option
 // hook_service_patterns=threadpool.ThreadPoolExampleLambdaExpression.main
 public class ThreadPoolExampleLambdaExpression {
+	private final static Executor executor = Executors.newFixedThreadPool(4,
+			runnable -> {
+				Thread thread = new Thread(runnable);
+				thread.setDaemon(true);
+				return thread;
+			});
+
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
-		Executor executor = Executors.newFixedThreadPool(4,
-				runnable -> {
-					Thread thread = new Thread(runnable);
-					thread.setDaemon(true);
-					return thread;
-				});
+		ThreadPoolExampleLambdaExpression ex = new ThreadPoolExampleLambdaExpression();
+		ex.run();
+	}
 
-		CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> {
-			return null;
-		}, executor);
-
-		future.get();
+	public void run() throws ExecutionException, InterruptedException {
+		CompletableFuture<String> cf = CompletableFuture.supplyAsync(
+				()-> "Hello World!",
+				executor
+		);
+		System.out.println(cf.get());
 	}
 }
