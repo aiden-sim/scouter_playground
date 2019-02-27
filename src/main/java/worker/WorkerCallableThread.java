@@ -10,7 +10,7 @@ public class WorkerCallableThread implements Callable<String> {
 		return EMPTY;
 	}
 
-	private void doSomething() {
+	public void doSomething() {
 		try {
 			System.out.println("doSomething");
 			Thread.sleep(1000);

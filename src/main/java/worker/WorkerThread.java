@@ -5,7 +5,7 @@ public class WorkerThread {
 		doSomething();
 	}
 
-	private void doSomething() {
+	public void doSomething() {
 		try {
 			System.out.println("doSomething");
 			Thread.sleep(1000);

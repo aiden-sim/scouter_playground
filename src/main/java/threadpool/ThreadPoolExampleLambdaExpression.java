@@ -1,5 +1,7 @@
 package threadpool;
 
+import worker.WorkerThread;
+
 import java.util.concurrent.*;
 
 // Runnable (caller 연결 X)
@@ -19,8 +21,10 @@ public class ThreadPoolExampleLambdaExpression {
 	}
 
 	public void run() throws ExecutionException, InterruptedException {
-		CompletableFuture<String> cf = CompletableFuture.supplyAsync(
-				()-> "Hello World!",
+		CompletableFuture<Void> cf = CompletableFuture.runAsync(
+				() -> {
+					new WorkerThread().run();
+				},
 				executor
 		);
 		System.out.println(cf.get());
