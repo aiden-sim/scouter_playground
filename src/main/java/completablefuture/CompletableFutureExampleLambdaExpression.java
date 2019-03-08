@@ -11,9 +11,7 @@ import java.util.concurrent.ExecutionException;
 // hook_async_callrunnable_scan_package_prefixes=completablefuture
 public class CompletableFutureExampleLambdaExpression {
 	public static void main(String[] args) throws ExecutionException, InterruptedException {
-		CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
-			new WorkerThread().run();
-		});
+		CompletableFuture<Void> future = CompletableFuture.runAsync(() -> new WorkerThread().run());
 		future.get();
 	}
 }
